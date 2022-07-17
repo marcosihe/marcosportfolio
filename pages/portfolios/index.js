@@ -23,9 +23,10 @@ const Portfolios = ({ posts }) => {
 };
 
 Portfolios.getInitialProps = async () => {
+  const URL = 'https://jsonplaceholder.typicode.com/posts'
   let posts = [];
   try {
-    const res = await axios.get("https://jsonplaceholder.typicode.com/posts");
+    const res = await axios.get(URL);
     posts = res.data;
   } catch (error) {
     console.error(error);
