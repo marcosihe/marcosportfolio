@@ -1,11 +1,13 @@
 import BaseLayout from '../components/layout/BaseLayout';
 
-export default function Home() {
+const Cv = () => {
   return (
     <>
       <BaseLayout>
-        <h1>Home Page</h1>
+        <h1>CV Page</h1>
       </BaseLayout>
     </>
   )
 }
+
+export default Cv

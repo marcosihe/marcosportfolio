@@ -1,11 +1,13 @@
 import BaseLayout from '../components/layout/BaseLayout';
 
-export default function Home() {
+const About = () => {
   return (
     <>
       <BaseLayout>
-        <h1>Home Page</h1>
+        <h1>About Page</h1>
       </BaseLayout>
     </>
   )
 }
+
+export default About
